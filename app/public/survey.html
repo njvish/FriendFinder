@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Friend Finder | Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>Survey Questions</h1>
+            <br>
+            <hr>
+            <!-- <form method="POST" action="/api/friends"> -->
+            <h3>
+                <strong>About You</strong>
+            </h3>
+            <fieldset class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" name="name" required>
+            </fieldset>
+            <fieldset class="form-group">
+                <label for="photo">Link to Photo Image (Required)</label>
+                <input type="text" class="form-control" placeholder="selfie" id="photo" name="photo" required>
+            </fieldset>
+            <hr>
+            <h4>
+                <strong>Question 1</strong>
+            </h4>
+            <label for="question01">I love trying new things.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q1">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+        </br>
+            <h4>
+                <strong>Question 2</strong>
+            </h4>
+            <label for="question02">I love Super Hero movies.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q2">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            </br>
+            <h4>
+                <strong>Question 3</strong>
+            </h4>
+            <label for="question03">Gandolf the White is better than Dumbledore.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q3">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            </br>
+            <h4>
+                <strong>Question 4</strong>
+            </h4>
+            <label for="question04">Han shot first.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q4">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            </br>
+            <h4>
+                <strong>Question 5</strong>
+            </h4>
+            <label for="question05">Pineapple should not be a pizza topping.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q5">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            </br>
+            <h4>
+                <strong>Question 6</strong>
+            </h4>
+            <label for="question06">Dogs are better than Cats.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q6">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            </br>
+            <h4>
+                <strong>Question 7</strong>
+            </h4>
+            <label for="question07">Milk Chocolate is better than Dark Chocolate.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q7">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            </br>
+            <h4>
+                <strong>Question 8</strong>
+            </h4>
+            <label for="question08">You have a spirt creature.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q8">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            </br>
+            <h4>
+                <strong>Question 9</strong>
+            </h4>
+            <label for="question09">I can go without seeing family for a few months.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q9">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            </br>
+            <h4>
+                <strong>Question 10</strong>
+            </h4>
+            <label for="question10">I am scared of spiders.</label>
+            <br>
+            <div class="col-md-4">
+                <select data-placeholder="" class "=chosen-select" id="q10">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            </br>
+            <input type="submit" class="btn btn-primary" value="Match up" id="submit">
+            </form>
+        </div>
+        <hr>
+        <a href="/api/friends">API Friends List</a> |
+        <a href="" target="_blank">GitHub Repo</a>
+    </div>
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Closest Friend Match</h4>
+            <div class="divider"></div>
+            <h5 id="userMatch"></h5>
+            <img id="userMatchImage" class="materialboxed" width="650" src="">
+        </div>
+        <div class="modal-footer">
+            <a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Fill Again!</a>
+        </div>
+    </div>
+
+    <div class="resultsModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">
+                        <strong>Best Match</strong>
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" src="lkjfj" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var config = {
+            ".chosen-select": {},
+            ".chosen-select-deselect": {
+                allow_single_deselect: true
+            },
+            ".chosen-select-no-single": {
+                disable_search_threshold: 10
+            },
+            ".chosen-select-no-results": {
+                no_results_text: "Oops, nothing found!"
+            },
+            ".chosen-select-width": {
+                width: "95%"
+            }
+
+        };
+        $("#submit").on("click", function () {
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+
+                $(".chosen-select").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            }
+
+            if (validateForm()) {
+                var userData = {
+                    name: $("#name").val(),
+                    photo: $("#photo").val(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val()
+                    ]
+                };
+
+                var currentURL = window.location.origin;
+
+                $.post(currentURL + "/api/friends", userData, function (data) {
+                    $("#matchName").text(data.name);
+                    $("#matchImg").attr("src", data.photo);
+                    $("#resultsModal").modal("toggle");
+                });
+            } else {
+                alert("Please fill out all fields before submitting!");
+            }
+
+            return false;
+        });
+    </script>
+</body>
+
+</html>
